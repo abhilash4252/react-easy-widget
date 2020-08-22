@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Drawer, Button, Form, Input, Alert } from 'antd'
 import axios from 'axios'
-import 'antd/dist/antd.css'
 import styles from './styles.module.css'
 import classes from './styles.module.css'
 
