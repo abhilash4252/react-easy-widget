@@ -12,3 +12,5 @@
   font-family: 'Roboto', helvetica, arial, sans-serif;
   z-index: 999;
 }
+
+@import '~antd/dist/antd.css';
