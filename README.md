@@ -7,22 +7,32 @@
 ## Install
 
 ```bash
+Signup at [widget.easy app](https://easy-widget.vercel.app/)] to get an Id specific to you
+```
+
+```bash
 npm install --save react-easy-widget
+or
+yarn add react-easy-widget
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'react-easy-widget'
+import { EasyWidget } from 'react-easy-widget'
 import 'react-easy-widget/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const Example = () => {
+  return (
+    <EasyWidget id='getthis id from widget.easy, check below for details' />
+  )
 }
+```
+
+```bash
+Signup at [widget.easy app](https://easy-widget.vercel.app/)] to get an Id specific to you
 ```
 
 ## License
