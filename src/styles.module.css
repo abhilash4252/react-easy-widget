@@ -1,16 +1,16 @@
 .feedbackButton {
-  -webkit-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg) !important;
   font-weight: 600;
-  transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  text-align: center;
-  font-size: 17px;
-  position: fixed;
-  right: -40px;
-  top: 45%;
+  transform: rotate(-90deg) !important;
+  -ms-transform: rotate(-90deg) !important;
+  -moz-transform: rotate(-90deg) !important;
+  text-align: center !important;
+  font-size: 17px !important;
+  position: fixed !important;
+  right: -40px !important;
+  top: 45% !important;
   font-family: 'Roboto', helvetica, arial, sans-serif;
-  z-index: 999;
+  z-index: 999 !important;
 }
 
 @import '~antd/dist/antd.css';
